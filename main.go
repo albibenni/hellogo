@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"math/rand"
+	"github.com/albibenni/mystrings"
 )
 
 func main() {
-	fmt.Println("My favorite number is", rand.Intn(10))
+	fmt.Println(mystrings.Reverse("hello world"))
 }
+
